@@ -105,3 +105,17 @@ h4{font-size: 18px;}
 p {
   line-height: 1.4; 
 }
+
+ 
+.img1 {
+    float:left;
+    margin-left: 10px;
+  
+
+}
+.nav {
+    float:left;
+    background-color: #ffffff;
+    margin: 0;
+
+}
