@@ -51,7 +51,8 @@ h1 {color : black}
     .q2 {background-color: #649283;}
     .q3 {background-color: #649283;}
     .q4 {background-color: #649283;}
-   .text1 {font-size: 20px;}
+    .q5 {background-color: #649283 ;}
+   .text1 {font-size: 18px;}
    .text2 {font-size: 15px;}
    #navbar {font-size: 20px;}
   
@@ -92,6 +93,9 @@ h2 {
   font-size: 24px;
 }
 
+h3{font-size: 20px;}
+h4{font-size: 18px;}
+
 
 #navbar li a {
   font-size: 18px;
@@ -99,6 +103,5 @@ h2 {
 
 
 p {
-  font-size: 16px;
   line-height: 1.4; 
 }
