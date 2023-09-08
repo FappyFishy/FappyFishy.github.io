@@ -4,7 +4,7 @@ h1 {color : black}
         margin: 0;
         padding: 0;
         width: 200px;
-        background-color: #000000;
+        background-color: #3d705f;
       }
       
       #navbar li a {
@@ -15,12 +15,12 @@ h1 {color : black}
       }
       
       li a.active {
-        background-color: #068cb4;
+        background-color: #81AE9D;
         color: white;
       }
       
       li a:hover:not(.active) {
-        background-color: #068cb4;
+        background-color: #51A88B;
         color: white;
       }
       
@@ -41,20 +41,34 @@ h1 {color : black}
       }
       
       h1 {
-        color: rgb(207, 0, 0);
+        color:#000000;
       }
       h2 {
-        color: rgb(255, 129, 129);
+        color: black;
       }
       h3 {
-        color: rgb(160, 4, 56);
+        color: black;
       }
       h4 {
-        color: rgb(241, 25, 97);
+        color: black;
       }
       p {color: white;}
       body {
-        background-color: black;
+        background-color: #3d705f;
       }
            
-    
+      .color1 
+      {background-color: #649283;} 
+      .color2 {background-color:#759C8E;}
+      .color3 {background-color: #7BA596; }
+      .color4 {background-color: #81AE9D;}
+      .color5 {background-color: #69AB94;}
+      .color6 {background-color: #649283 ;}
+      .color7 {background-color: #759C8E;}
+      .color8 {background-color: #7BA596;}
+      .color9 {background-color: #81AE9D;}
+      .color10 {background-color: #69AB94;}
+    h2 {text-align: center;}
+    table, th, td {
+      border:1px solid black;
+    }
