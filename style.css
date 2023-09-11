@@ -105,5 +105,33 @@ h4{font-size: 18px;}
 p {
   line-height: 1.4; 
 }
-a{color: #69AB94;font-size: 15;}
-.links a{float: right;}
+a{color: #3c7561;font-size: 15;}
+aside{float: right;}
+aside {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+
+
+aside li {
+  margin: 0 10px; 
+  display: inline;
+}
+
+
+aside li a {
+  display: inline-block;
+  padding: 10px 20px; 
+  background-color: #4E937A; 
+  color: #fff; 
+  text-decoration: none;
+  border-radius: 5px; 
+}
+aside li a.active {
+  background-color: #81AE9D; }
+ aside li a:hover:not(.active) {
+    background-color: #9aa899;
+    color: white;
+  }
