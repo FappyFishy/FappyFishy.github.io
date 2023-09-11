@@ -154,3 +154,24 @@ td {font-weight: bold; font-size: 20px;}
   width: 1.66%;
   height: 24px;
 }
+.wrap {
+  float: left; 
+  margin: 10px;
+ }
+ .flex-container {
+  display: flex;
+  background-color: #649283;
+}
+
+.flex-container > div {
+  background-color: #95B7A6;
+  margin: 10px;
+  padding: 1px;
+  font-size: 15px;
+}
+.flex-container {
+  display: flex;
+  height: 300;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
