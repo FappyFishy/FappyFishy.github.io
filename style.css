@@ -159,19 +159,32 @@ td {font-weight: bold; font-size: 20px;}
   margin: 10px;
  }
  .flex-container {
-  display: flex;
-  background-color: #649283;
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.flex-container > div {
-  background-color: #95B7A6;
-  margin: 10px;
-  padding: 1px;
-  font-size: 15px;
+/* Style for header row */
+.flex-container > .header {
+  display: table-row;
+  font-weight: bold;
+  background-color: #000000;
 }
-.flex-container {
-  display: flex;
-  height: 300;
-  flex-wrap: wrap;
-  align-content: space-between;
+
+/* Style for rows */
+.flex-container > .row {
+  display: table-row;
+}
+
+/* Style for individual cells */
+.flex-container > .row > div {
+  display: table-cell;
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Style for the first cell in each row */
+.flex-container > .row > .QuartileNumber {
+  font-weight: bold;
 }
