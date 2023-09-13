@@ -1,89 +1,171 @@
-h1 {color : black}      
-      h3{text-align: center;}
-      img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      h4{text-align: center;}
-      h1{text-align: center;}
-      video {
-        display: block;
-        margin: 0 auto;
-    }
-    body {
-        color: rgb(255, 255, 255);
-      }
-      
-      h1 {
-        color:#000000;
-      }
-      h2 {
-        color: black;
-      }
-      h3 {
-        color: black;
-      }
-      h4 {
-        color: black;
-      }
-      p {color: white;}
-      body {
-        background-color: #3d705f;
-      }
-           
-      .color1 
-      {background-color: #649283;} 
-      .color2 {background-color:#759C8E;}
-      .color3 {background-color: #7BA596; }
-      .color4 {background-color: #81AE9D;}
-      .color5 {background-color: #69AB94;}
-      .color6 {background-color: #649283 ;}
-      .color7 {background-color: #759C8E;}
-      .color8 {background-color: #7BA596;}
-      .color9 {background-color: #81AE9D;}
-      .color10 {background-color: #69AB94;}
-    h2 {text-align: center;}
-    table, th, td {
-      border:1px solid black;
-    }
-    .q1 {background-color: #649283 ;}
-    .q2 {background-color: #649283;}
-    .q3 {background-color: #649283;}
-    .q4 {background-color: #649283;}
-    .q5 {background-color: #649283 ;}
-   .text1 {font-size: 18px;}
-   .text2 {font-size: 15px;}
-   #navbar {font-size: 20px;}
-  
+h1 {
+  color: black
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: #000000;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+h4 {
+  color: black;
+}
+
+p {
+  color: white;
+}
+
+body {
+  background-color: #3d705f;
+}
+
+.color1 {
+  background-color: #649283;
+}
+
+.color2 {
+  background-color: #759C8E;
+}
+
+.color3 {
+  background-color: #7BA596;
+}
+
+.color4 {
+  background-color: #81AE9D;
+}
+
+.color5 {
+  background-color: #69AB94;
+}
+
+.color6 {
+  background-color: #649283;
+}
+
+.color7 {
+  background-color: #759C8E;
+}
+
+.color8 {
+  background-color: #7BA596;
+}
+
+.color9 {
+  background-color: #81AE9D;
+}
+
+.color10 {
+  background-color: #69AB94;
+}
+
+h2 {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.q1 {
+  background-color: #649283;
+}
+
+.q2 {
+  background-color: #649283;
+}
+
+.q3 {
+  background-color: #649283;
+}
+
+.q4 {
+  background-color: #649283;
+}
+
+.q5 {
+  background-color: #649283;
+}
+
+.text1 {
+  font-size: 18px;
+}
+
+.text2 {
+  font-size: 15px;
+}
+
 #navbar {
-  list-style-type: none; 
+  font-size: 20px;
+}
+
+#navbar {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; 
+  display: flex;
 }
 
 
 #navbar li {
-  margin: 0 10px; 
+  margin: 0 10px;
   display: inline;
 }
 
 
 #navbar li a {
   display: inline-block;
-  padding: 10px 20px; 
-  background-color: #4E937A; 
-  color: #fff; 
+  padding: 10px 20px;
+  background-color: #4E937A;
+  color: #fff;
   text-decoration: none;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
+
 #navbar li a.active {
-  background-color: #81AE9D; }
- #navbar li a:hover:not(.active) {
-    background-color: #9aa899;
-    color: white;
-  }
+  background-color: #81AE9D;
+}
+
+#navbar li a:hover:not(.active) {
+  background-color: #9aa899;
+  color: white;
+}
 
 h1 {
   font-size: 36px;
@@ -93,8 +175,13 @@ h2 {
   font-size: 24px;
 }
 
-h3{font-size: 20px;}
-h4{font-size: 18px;}
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
 
 
 #navbar li a {
@@ -103,40 +190,55 @@ h4{font-size: 18px;}
 
 
 p {
-  line-height: 1.4; 
+  line-height: 1.4;
 }
-a{color: #3c7561;font-size: 15;}
-aside{float: right;}
+
+a {
+  color: #3c7561;
+  font-size: 15;
+}
+
 aside {
-  list-style-type: none; 
+  float: right;
+}
+
+aside {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; 
+  display: flex;
 }
 
 
 aside li {
-  margin: 0 10px; 
+  margin: 0 10px;
   display: inline;
 }
 
 
 aside li a {
   display: inline-block;
-  padding: 10px 20px; 
-  background-color: #4E937A; 
-  color: #fff; 
+  padding: 10px 20px;
+  background-color: #4E937A;
+  color: #fff;
   text-decoration: none;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
+
 aside li a.active {
-  background-color: #81AE9D; }
- aside li a:hover:not(.active) {
-    background-color: #9aa899;
-    color: white;
-  }
-.studycharts {margin-left: auto;
-margin-right: auto;margin-top: 10px;}
+  background-color: #81AE9D;
+}
+
+aside li a:hover:not(.active) {
+  background-color: #9aa899;
+  color: white;
+}
+
+.studycharts {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
 
 .border {
   margin-left: auto;
@@ -154,32 +256,102 @@ margin-right: auto;margin-top: 10px;}
   width: 1.66%;
   height: 24px;
 }
+
 .wrap {
-  float: left; 
+  float: left;
   margin: 10px;
- }
- .flex-container {
+}
+
+.flex-container {
   display: table;
   width: 100%;
   border-collapse: collapse;
 }
 
-.flex-container > .row {
+.flex-container>.row {
   display: table-row;
 }
 
-.flex-container > .row > div {
+.flex-container>.row>div {
   display: table-cell;
   padding: 8px;
   border: 1px solid #ccc;
   text-align: center;
 }
 
-.flex-container > .row > .QuartileNumber {
+.flex-container>.row>.QuartileNumber {
   font-weight: bold;
 }
-p {padding-left: 20px;}
+
+p {
+  padding-left: 20px;
+}
+
 .wrap1 {
-  float: right; 
+  float: right;
   margin: 10px;
- }
+}
+
+aside {
+  float: right;
+}
+
+aside {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+aside li {
+  margin: 0 10px;
+  display: inline;
+}
+
+
+aside li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4E937A;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+aside li a.active {
+  background-color: #81AE9D;
+}
+
+aside li a:hover:not(.active) {
+  background-color: #9aa899;
+  color: white;
+}
+
+#profession {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+#profession li {
+  margin: 0 10px;
+  display: inline;
+}
+
+
+#profession li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4E937A;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#profession li a:hover:not(.active) {
+  background-color: #9aa899;
+  color: white;
+}
