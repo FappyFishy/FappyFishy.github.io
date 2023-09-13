@@ -178,3 +178,8 @@ margin-right: auto;margin-top: 10px;}
 .flex-container > .row > .QuartileNumber {
   font-weight: bold;
 }
+p {padding-left: 20px;}
+.wrap1 {
+  float: right; 
+  margin: 10px;
+ }
