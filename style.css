@@ -258,8 +258,9 @@ aside li a:hover:not(.active) {
 }
 
 .wrap {
-  float: left;
-  margin: 10px;
+  float: left; 
+  padding-right: 10px;
+ 
 }
 
 .flex-container {
