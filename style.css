@@ -258,9 +258,9 @@ aside li a:hover:not(.active) {
 }
 
 .wrap {
-  float: left; 
+  float: left;
   padding-right: 10px;
- 
+
 }
 
 .flex-container {
@@ -356,3 +356,5 @@ aside li a:hover:not(.active) {
   background-color: #9aa899;
   color: white;
 }
+
+.logo {}
