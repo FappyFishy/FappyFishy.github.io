@@ -251,9 +251,9 @@ aside li a:hover:not(.active) {
   background-color: #649283;
 }
 
-.progress {
+.container {
   background-color: rgb(137, 218, 250);
-  width: 1.66%;
+  width: 1.5%;
   height: 24px;
 }
 
@@ -358,7 +358,7 @@ aside li a:hover:not(.active) {
 }
 #navbar{transition: 0.3s;}
 body{font-family: Arial, Helvetica, sans-serif;}
-body{text-align: center;}
+
 
 #footer {
   position: fixed;
@@ -369,3 +369,5 @@ body{text-align: center;}
   height: 40px;
   background: grey;
 }
+.centered-logo{display: flex;
+float: right;}
