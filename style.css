@@ -26,7 +26,7 @@ video {
 }
 
 body {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -46,51 +46,55 @@ h4 {
 }
 
 p {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 body {
-  background-color: #3d705f;
+  background-image: url('zWebsiteBackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
 
+
 .color1 {
-  background-color: #649283;
+  background-color: #ffffff8a;
 }
 
 .color2 {
-  background-color: #759C8E;
+  background-color: #ffffff8a;
 }
 
 .color3 {
-  background-color: #7BA596;
+  background-color: #ffffff8a;
 }
 
 .color4 {
-  background-color: #81AE9D;
+  background-color: #ffffff8a;
 }
 
 .color5 {
-  background-color: #69AB94;
+  background-color: #ffffff8a;
 }
 
 .color6 {
-  background-color: #649283;
+  background-color: #ffffff8a;
 }
 
 .color7 {
-  background-color: #759C8E;
+  background-color: #ffffff8a;
 }
 
 .color8 {
-  background-color: #7BA596;
+  background-color: #ffffff8a;
 }
 
 .color9 {
-  background-color: #81AE9D;
+  background-color: #ffffff8a;
 }
 
 .color10 {
-  background-color: #69AB94;
+  background-color: #ffffff8a;
 }
 
 h2 {
@@ -104,23 +108,23 @@ td {
 }
 
 .q1 {
-  background-color: #649283;
+  background-color: #ffffff8a;
 }
 
 .q2 {
-  background-color: #649283;
+  background-color: #ffffff8a;
 }
 
 .q3 {
-  background-color: #649283;
+  background-color: #ffffff8a;
 }
 
 .q4 {
-  background-color: #649283;
+  background-color: #ffffff8a;
 }
 
 .q5 {
-  background-color: #649283;
+  background-color: #ffffff8a;
 }
 
 .text1 {
@@ -152,19 +156,19 @@ td {
 #navbar li a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4E937A;
-  color: #fff;
+  background-color: #ffffff8a;
+  color: #000000;
   text-decoration: none;
   border-radius: 5px;
 }
 
 #navbar li a.active {
-  background-color: #81AE9D;
+  background-color: #fcbed6;
 }
 
 #navbar li a:hover:not(.active) {
-  background-color: #9aa899;
-  color: white;
+  background-color: #fde6be;
+  color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -194,7 +198,7 @@ p {
 }
 
 a {
-  color: #3c7561;
+  color: #fcbed6;;
   font-size: 15;
 }
 
@@ -219,19 +223,19 @@ aside li {
 aside li a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4E937A;
-  color: #fff;
+  background-color: #fcbed6;;
+  color: #000000;
   text-decoration: none;
   border-radius: 5px;
 }
 
 aside li a.active {
-  background-color: #81AE9D;
+  background-color: #fcbed6;;
 }
 
 aside li a:hover:not(.active) {
-  background-color: #9aa899;
-  color: white;
+  background-color: #fde6be;
+  color: rgb(0, 0, 0);
 }
 
 .studycharts {
@@ -248,7 +252,7 @@ aside li a:hover:not(.active) {
   height: 24px;
   margin-top: 5px;
   margin-bottom: 10px;
-  background-color: #649283;
+  background-color: #ffffff8a;
 }
 
 .container {
@@ -276,7 +280,7 @@ aside li a:hover:not(.active) {
 .flex-container>.row>div {
   display: table-cell;
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff8a;
   text-align: center;
 }
 
@@ -314,19 +318,19 @@ aside li {
 aside li a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4E937A;
-  color: #fff;
+  background-color: #ffffff8a;
+  color: #000000;
   text-decoration: none;
   border-radius: 5px;
 }
 
 aside li a.active {
-  background-color: #81AE9D;
+  background-color: #ffffff8a;
 }
 
 aside li a:hover:not(.active) {
-  background-color: #9aa899;
-  color: white;
+  background-color: #fde6be;
+  color: rgb(0, 0, 0);
 }
 
 #profession {
@@ -346,16 +350,19 @@ aside li a:hover:not(.active) {
 #profession li a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4E937A;
-  color: #fff;
+  background-color: #ffffff8a;
+  color: #000000;
   text-decoration: none;
   border-radius: 5px;
 }
-
-#profession li a:hover:not(.active) {
-  background-color: #9aa899;
-  color: white;
+#profession li a.active {
+  background-color: #ffffff8a;
 }
+#profession li a:hover:not(.active) {
+  background-color: #fde6be;
+  color: rgb(0, 0, 0);
+}
+
 #navbar{transition: 0.3s;}
 body{font-family: Arial, Helvetica, sans-serif;}
 
