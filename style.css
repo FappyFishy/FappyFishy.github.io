@@ -49,13 +49,6 @@ p {
   color: rgb(0, 0, 0);
 }
 
-body {
-  background-image: url('zWebsiteBackground.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-}
-
 
 .color1 {
   background-color: #ffffff8a;
@@ -135,41 +128,6 @@ td {
   font-size: 15px;
 }
 
-#navbar {
-  font-size: 20px;
-}
-
-#navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-
-#navbar li {
-  margin: 0 10px;
-  display: inline;
-}
-
-
-#navbar li a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #ffffff8a;
-  color: #000000;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-#navbar li a.active {
-  background-color: #fcbed6;
-}
-
-#navbar li a:hover:not(.active) {
-  background-color: #fde6be;
-  color: rgb(0, 0, 0);
-}
 
 h1 {
   font-size: 36px;
@@ -188,182 +146,10 @@ h4 {
 }
 
 
-#navbar li a {
-  font-size: 18px;
-}
-
-
 p {
   line-height: 1.4;
 }
 
-a {
-  color: #fcbed6;;
-  font-size: 15;
-}
-
-aside {
-  float: right;
-}
-
-aside {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-
-aside li {
-  margin: 0 10px;
-  display: inline;
-}
-
-
-aside li a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #fcbed6;;
-  color: #000000;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-aside li a.active {
-  background-color: #fcbed6;;
-}
-
-aside li a:hover:not(.active) {
-  background-color: #fde6be;
-  color: rgb(0, 0, 0);
-}
-
-.studycharts {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-}
-
-.border {
-  margin-left: auto;
-  margin-right: auto;
-  outline: 1px rgba(0, 0, 0, 0) solid;
-  width: 500px;
-  height: 24px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  background-color: #ffffff8a;
-}
-
-.container {
-  background-color: rgb(137, 218, 250);
-  width: 1.5%;
-  height: 24px;
-}
-
-.wrap {
-  float: left;
-  padding-right: 10px;
-
-}
-
-.flex-container {
-  display: table;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.flex-container>.row {
-  display: table-row;
-}
-
-.flex-container>.row>div {
-  display: table-cell;
-  padding: 8px;
-  border: 1px solid #ffffff8a;
-  text-align: center;
-}
-
-.flex-container>.row>.QuartileNumber {
-  font-weight: bold;
-}
-
-p {
-  padding-left: 20px;
-}
-
-.wrap1 {
-  float: right;
-  margin: 10px;
-}
-
-aside {
-  float: right;
-}
-
-aside {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-
-aside li {
-  margin: 0 10px;
-  display: inline;
-}
-
-
-aside li a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #ffffff8a;
-  color: #000000;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-aside li a.active {
-  background-color: #ffffff8a;
-}
-
-aside li a:hover:not(.active) {
-  background-color: #fde6be;
-  color: rgb(0, 0, 0);
-}
-
-#profession {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-
-#profession li {
-  margin: 0 10px;
-  display: inline;
-}
-
-
-#profession li a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #ffffff8a;
-  color: #000000;
-  text-decoration: none;
-  border-radius: 5px;
-}
-#profession li a.active {
-  background-color: #ffffff8a;
-}
-#profession li a:hover:not(.active) {
-  background-color: #fde6be;
-  color: rgb(0, 0, 0);
-}
-
-#navbar{transition: 0.3s;}
 body{font-family: Arial, Helvetica, sans-serif;}
 
 #footer {

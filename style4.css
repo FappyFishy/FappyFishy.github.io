@@ -1,0 +1,29 @@
+#profession {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+#profession li {
+  margin: 0 10px;
+  display: inline;
+}
+
+
+#profession li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff8a;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+#profession li a.active {
+  background-color: #ffffff8a;
+}
+#profession li a:hover:not(.active) {
+  background-color: #fde6be;
+  color: rgb(0, 0, 0);
+}

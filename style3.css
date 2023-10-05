@@ -1,0 +1,58 @@
+.studycharts {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.border {
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  width: 500px;
+  height: 24px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: #ffffff8a;
+}
+
+.container {
+  background-color: rgb(137, 218, 250);
+  width: 1.5%;
+  height: 24px;
+}
+
+.wrap {
+  float: left;
+  padding-right: 10px;
+
+}
+
+.flex-container {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.flex-container>.row {
+  display: table-row;
+}
+
+.flex-container>.row>div {
+  display: table-cell;
+  padding: 8px;
+  border: 1px solid #ffffff8a;
+  text-align: center;
+}
+
+.flex-container>.row>.QuartileNumber {
+  font-weight: bold;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.wrap1 {
+  float: right;
+  margin: 10px;
+}
