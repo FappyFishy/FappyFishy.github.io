@@ -42,16 +42,17 @@
   font-size: 16px;  
   border: none;
   outline: none;
-  color: #f9f9f9;
+  color: #ffffffd0;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  padding: 0%;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #ffffffd0;
 
 }
 
@@ -97,7 +98,7 @@ aside li {
 aside li a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #fcbed6;;
+  background-color: #ffffff8a;;
   color: #000000;
   text-decoration: none;
   border-radius: 5px;
